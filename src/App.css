@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+.container{
+  display: block;
+}
+
+.navbar-text{
+  color: white;
+}
+
+.form-container, #submit{
+  max-width: 50%;
+  margin:0 auto;
+  margin-top: 1.5rem;
+}
+
+#line{
+  color: white;
+}
+
+.resultsContainer{
+  display: flex;
+}
+
+button{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+#personCard{
+  border: 1px solid black;
+  height:fit-content;
+  width: fit-content;
+  padding: 10px;
+  margin: 0 auto;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: #212529;
+  display: flex;
+}
+
+
+.personCard:hover{
+  background-color:aquamarine;
+  opacity: 70%;
+}
+
+button{
+  border-radius: 10px;
+}
+
+
+#like,#dislike{
+  margin-bottom: .5rem;
+  height: 2rem;
+  width: 10rem;
+  padding: 2.5px;
+
+}
+
+#like:hover{
+  background-color: green;
+  opacity: 60%;
+  color: white;
+}
+
+#dislike:hover{
+  background-color: red;
+  opacity: 60%;
+  color: white;
+}
